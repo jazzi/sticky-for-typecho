@@ -5,6 +5,7 @@ Typecho的置顶插件 by Willin
 使用方法：
 1. 上传至plugins文件夹
 2. 在 index.php 的 $this->title(); 前面加上 $this->sticky(); 
+
 例如: `<h2 class="title"><a href="<?php $this->permalink() ?>"><?php $this->sticky(); $this->title() ?></a></h2>`
 
 3. 在插件设置里输入要置顶文章的cid，如15, (注意：如只置顶一个帖子，数字后需要加上逗号)
